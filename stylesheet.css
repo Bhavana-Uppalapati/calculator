@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 579px;
+    box-shadow: 5px 5px 10px 0px;
+    background-color: rgba(0,0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 400px;
+}
+button{
+    font-size: 30px;
+    width:60px ;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    margin-bottom: 5px;
+    background-color: rgba(26, 183, 26, 0.911);
+    color: white;
+}
+input{
+    font-size: 33px;
+    width: 202px;
+    height: 60px;
+    color: white;
+    margin-bottom: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+   
+}
